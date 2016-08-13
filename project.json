@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0-*",
+    "description": "Middleware to help run AspNetCore apps in a virtual directory",
+    "authors": [ "Lenny Kean" ],
+    "owners": [ "Lenny Kean" ],
+    "projectUrl": "https://github.com/lennykean/AspNetCore.VirtualDirectoryHelpers",
+    "title": "AspNetCore Virtual Directory Helpers",
+    "dependencies": {
+        "Microsoft.AspNetCore.Http.Abstractions": "1.0.0",
+        "NETStandard.Library": "1.6.0"
+    },
+    "frameworks": {
+        "netstandard1.6": {
+            "imports": "dnxcore50"
+        }
+    }
+}
